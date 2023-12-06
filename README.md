@@ -58,7 +58,7 @@ To install, simply download the password_checker.py file, along with the common_
 
 Here is the function used to check the user_password against a list of 10 million common passwords (credit to Github user danielmiessler for this list). The function simply reads in the common password list and checks to see if the user_password matches any line of the common password list:
 
-'''python
+```python
 def check_common(user_password):
     try:
         with open("common_pw_list.txt", "r") as file:
@@ -70,7 +70,7 @@ def check_common(user_password):
         print("common_pw_list.txt not found!")
     except IOError as io:
         print(io)
-'''
+```
 
 Because the program relies on lots of user_input, the largest function is the main() function, which runs the while loop used to take in and interpret user commands. This is also where the current dictionary list is stored and updated:
 
