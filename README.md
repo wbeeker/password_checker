@@ -74,14 +74,8 @@ def check_common(user_password):
 
 Because the program relies on lots of user_input, the largest function is the main() function, which runs the while loop used to take in and interpret user commands. This is also where the current dictionary list is stored and updated:
 
-'''python
+```python
 def main():
-    """
-    Main driver for the program.
-
-    Prints welcome message, gets command from the client,
-    and runs while the command is not "quit."
-   """
     print(WELCOME_PROMPT)
     current_dict = {}
     loop = True
@@ -122,11 +116,11 @@ def main():
             break
         else:
             print("Invalid command.", "\n", HELP_PROMPT)
-'''
+```
 
 Here is the dictionary encrypter function. This takes in the current_dictionary as stored in the main() function above, converts the dictionary to a string (using json.dumps() to maintain formatting), and then encrypts the string using a randomly generated key string. The program then writes the encrypted string to a text file named encrypted_file.txt and writes the random key to a text file named key.txt:
 
-'''python
+```python
 def dict_encrypt(current_dict: dict, key=RANDOM_KEY):
     string_dict = json.dumps(current_dict)
     encrypted = ""
@@ -140,11 +134,11 @@ def dict_encrypt(current_dict: dict, key=RANDOM_KEY):
     with open("key.txt", "w") as key_file:
         key_file.write(key)
     print("List has been encrypted as encrypted_file.txt. Key is key.txt.")
-'''
+```
 
 Here is the decryption function. This takes in the encrypted file and key file based on user input and decrypts the encrypted file based on the key file. The decrypted string from the encrypted file is then printed in dictionary format using json.loads(). The main() function also updates the current_list with the decrypted dictionary:
 
-'''python
+```python
 def dict_decrypt():
     decrypted = ""
     filename = input("Enter filename to decrypt: ")
@@ -176,7 +170,7 @@ def dict_decrypt():
     for key, value in new.items():
         print("\t", key + ":", value)
     return new
-'''
+```
 
 ### Major Challenges
 
