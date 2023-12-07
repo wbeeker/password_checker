@@ -181,7 +181,7 @@ Coming up with a way to score the complexity of the user_password was a major ch
 
 Here is what a full run looks like:
 
-![Screen Shot 2023-12-06 at 8.22.31 AM.png] 
+![Screen Shot 2023-12-06 at 8.22.31 AM.png] (Readme photos/Screen Shot 2023-12-06 at 8.22.31 AM.png)
 
 
 And here are the encrypted_file.txt and key.txt outputted by the run:
