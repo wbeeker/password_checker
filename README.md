@@ -44,7 +44,7 @@ When you have your list of passwords ready to save, you can type 'encrypt' and t
 
 You can then decrypt the list by typing 'decrypt' into the program and entering the name of the file you'd like to decrypt along with its key:
 
-<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/Screen%20Shot%202023-12-03%20at%208.41.15%20AM.png">
+<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/Screen%20Shot%202023-12-03%20at%208.41.15%20AM.png" height="100" width="200">
 
 By typing 'current' you'll see that the current list has been updated to include the decrypted passwords:
 
