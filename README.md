@@ -22,7 +22,7 @@ The encryption/decryption features are something I'm proud of. It was not easy t
 
 First, the program will ask you what you want to do:
 
-<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/screenshot.png">
+<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/screenshot.png" height="100" width="100">
 
 Type 'help' for the program to display valid command options:
 
@@ -57,7 +57,7 @@ To end the program, simply type 'quit':
 
 ## Installation Instructions
 
-To install, download password_checker.py, ecnrypter.py, and the common_pw_list.txt file. Ppen password_checker.py with your favorite IDE and hit run. Make sure to have all three files in the same directory.
+To install, download password_checker.py, ecnrypter.py, and the common_pw_list.txt file. Open password_checker.py with your favorite IDE and hit run. Make sure to have all three files in the same directory.
 
 
 ## Code Review
