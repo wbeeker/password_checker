@@ -35,7 +35,7 @@ Typing 'pw' will allow you to add a password and corresponding app or service na
 
 Typing 'y' or 'yes' will add the password to the current list. Type 'current' to display the current list:
 
-<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/Screen%20Shot%202023-12-03%20at%208.37.17%20AM.png" height="100" width="200">
+<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/Screen%20Shot%202023-12-03%20at%208.37.17%20AM.png" height="150" width="400">
 
 When you have your list of passwords ready to save, you can type 'encrypt' and the list will be encrypted based on a random key and saved in a text file in your working directory:
 
