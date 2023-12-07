@@ -51,7 +51,7 @@ To end the program, simply type 'quit':
 
 ## Installation Instructions
 
-To install, download password_checker.py, ecnrypter.py, and the common_pw_list.txt file, and open password_checker.py with your favorite IDE. Make sure to have all three files in the same directory.
+To install, download password_checker.py, ecnrypter.py, and the common_pw_list.txt file. Ppen password_checker.py with your favorite IDE and hit run. Make sure to have all three files in the same directory.
 
 
 ## Code Review
