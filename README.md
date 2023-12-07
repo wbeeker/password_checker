@@ -26,7 +26,7 @@ First, the program will ask you what you want to do:
 
 Type 'help' for the program to display valid command options:
 
-<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/screenshot2.png" height="200" width="550">
+<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/screenshot2.png" height="250" width="550">
 
 Typing 'pw' will allow you to add a password and corresponding app or service name to the current dictionary. The program will then display the strength of the password and ask if you'd like to add it to the current dictionary or not:
 
