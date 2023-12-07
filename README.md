@@ -185,8 +185,8 @@ Here is what a full run looks like:
 
 And here are the encrypted_file.txt and key.txt outputted by the run:
 
-<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/Screen%20Shot%202023-12-06%20at%208.22.51%20AM.png" height="100" width="500">
-<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/Screen%20Shot%202023-12-06%20at%208.22.54%20AM.png" height="100" width="400">
+<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/Screen%20Shot%202023-12-06%20at%208.22.51%20AM.png" height="100" width="450">
+<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/Screen%20Shot%202023-12-06%20at%208.22.54%20AM.png" height="100" width="450">
 
 
 ## Testing
