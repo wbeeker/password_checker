@@ -22,7 +22,7 @@ The encryption/decryption features are something I'm proud of. It was not easy t
 
 First, the program will ask you what you want to do:
 
-<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/screenshot.png" height="75" width="400">
+<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/screenshot.png" height="55" width="300">
 
 Type 'help' for the program to display valid command options:
 
@@ -31,7 +31,7 @@ Type 'help' for the program to display valid command options:
 Typing 'pw' will allow you to add a password and corresponding app or service name to the current dictionary. The program will then display the strength of the password and ask if you'd like to add it to the current dictionary or not:
 
 <img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/Screen%20Shot%202023-12-03%20at%208.35.28%20AM.png" height="80" width="425">
-<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/Screen%20Shot%202023-12-03%20at%208.36.19%20AM.png" height="125" width="400">
+<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/Screen%20Shot%202023-12-03%20at%208.36.19%20AM.png" height="110" width="400">
 
 Typing 'y' or 'yes' will add the password to the current list. Type 'current' to display the current list:
 
