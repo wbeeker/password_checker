@@ -52,7 +52,7 @@ By typing 'current' you'll see that the current list has been updated to include
 
 To end the program, simply type 'quit':
 
-<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/Screen%20Shot%202023-12-03%20at%208.42.47%20AM.png" height="75" width="350">
+<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/Screen%20Shot%202023-12-03%20at%208.42.47%20AM.png" height="50" width="400">
 
 
 ## Installation Instructions
