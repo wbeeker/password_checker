@@ -22,7 +22,7 @@ The encryption/decryption features are something I'm proud of. It was not easy t
 
 First, the program will ask you what you want to do:
 
-<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/screenshot.png" height="100" width="300">
+<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/screenshot.png" height="100" width="400">
 
 Type 'help' for the program to display valid command options:
 
