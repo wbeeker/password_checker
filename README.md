@@ -182,7 +182,7 @@ Coming up with a way to score the complexity of the user_password was a major ch
 Here is what a full run looks like:
 
 <img src="https://github.com/wbeeker/password_checker2/blob/main/Readme%20photos/Screen%20Shot%202023-12-06%20at%208.22.06%20AM.png" height="600" width="500">
-<img src="https://github.com/wbeeker/password_checker2/blob/main/Readme%20photos/Screen%20Shot%202023-12-06%20at%208.22.31%20AM.png" height="100" width="100">
+<img src="https://github.com/wbeeker/password_checker2/blob/main/Readme%20photos/Screen%20Shot%202023-12-06%20at%208.22.31%20AM.png" height="350" width="200">
 
 And here are the encrypted_file.txt and key.txt outputted by the run:
 
