@@ -39,8 +39,8 @@ Typing 'y' or 'yes' will add the password to the current list. Type 'current' to
 
 When you have your list of passwords ready to save, you can type 'encrypt' and the list will be encrypted based on a random key and saved in a text file in your working directory:
 
-<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/Screen%20Shot%202023-12-03%20at%208.38.36%20AM.png" height="70" width="550">
-<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/Screen%20Shot%202023-12-03%20at%208.39.26%20AM.png" height="120" width="450">
+<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/Screen%20Shot%202023-12-03%20at%208.38.36%20AM.png" height="65" width="550">
+<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/Screen%20Shot%202023-12-03%20at%208.39.26%20AM.png" height="115" width="450">
 
 You can then decrypt the list by typing 'decrypt' into the program and entering the name of the file you'd like to decrypt along with its key:
 
