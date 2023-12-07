@@ -22,31 +22,37 @@ The encryption/decryption features are something I'm proud of. It was not easy t
 
 First, the program will ask you what you want to do:
 
+<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/screenshot.png">
 
 Type 'help' for the program to display valid command options:
 
+<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/screenshot2.png">
 
 Typing 'pw' will allow you to add a password and corresponding app or service name to the current dictionary. The program will then display the strength of the password and ask if you'd like to add it to the current dictionary or not:
 
+<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/Screen%20Shot%202023-12-03%20at%208.35.28%20AM.png">
+<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/Screen%20Shot%202023-12-03%20at%208.36.19%20AM.png">
 
 Typing 'y' or 'yes' will add the password to the current list. Type 'current' to display the current list:
 
+<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/Screen%20Shot%202023-12-03%20at%208.37.17%20AM.png">
 
 When you have your list of passwords ready to save, you can type 'encrypt' and the list will be encrypted based on a random key and saved in a text file in your working directory:
 
-
+<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/Screen%20Shot%202023-12-03%20at%208.38.36%20AM.png">
+<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/Screen%20Shot%202023-12-03%20at%208.39.26%20AM.png">
 
 You can then decrypt the list by typing 'decrypt' into the program and entering the name of the file you'd like to decrypt along with its key:
 
-
+<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/Screen%20Shot%202023-12-03%20at%208.41.15%20AM.png">
 
 By typing 'current' you'll see that the current list has been updated to include the decrypted passwords:
 
-
+<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/Screen%20Shot%202023-12-03%20at%208.41.56%20AM.png">
 
 To end the program, simply type 'quit':
 
-
+<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/Screen%20Shot%202023-12-03%20at%208.42.47%20AM.png">
 
 
 ## Installation Instructions
