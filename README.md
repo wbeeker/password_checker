@@ -48,7 +48,7 @@ You can then decrypt the list by typing 'decrypt' into the program and entering 
 
 By typing 'current' you'll see that the current list has been updated to include the decrypted passwords:
 
-<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/Screen%20Shot%202023-12-03%20at%208.41.56%20AM.png">
+<img src="https://github.com/wbeeker/password_checker/blob/main/Readme%20photos/Screen%20Shot%202023-12-03%20at%208.41.56%20AM.png" height="100" width="250">
 
 To end the program, simply type 'quit':
 
