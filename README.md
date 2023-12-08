@@ -9,14 +9,13 @@
 
 ## Description
 
+I have trouble keeping track of all my passwords, but to keep a list of them together seems risky — if someone were to find that list, they'd have access to all of my passwords. Encrypting the list allows me to keep them all in one place, but also keeps them protected until I need to access them.
+
 This program takes in passwords from the user and the name of the application or service the password is used for. The program stores a list of passwords and service names, and can encrypt the list into a text file. The text file, and its key, can then be decrypted by the program.
-
-I have trouble keeping track of all my passwords, but to keep a list of them together seems risky — if someone were to find that list, they'd have access to all of my passwords. Encrypting the list allows me to keep them all in one place, but also keeps them safe until I need to access them.
-
 
 ## Key Features
 
-The encryption/decryption features are something I'm proud of. It was not easy to maintain dictionary formatting from the encrypted text file to the decrypted list. This took a lot of trial and error but I ended up getting the exact formatting I was hoping for.
+The encryption/decryption features: it was not easy to maintain dictionary formatting from the encrypted text file to the decrypted list. This took a lot of trial and error but I ended up getting the formatting I was going for.
 
 ## Guide
 
@@ -180,7 +179,7 @@ def dict_decrypt():
 
 ### Major Challenges
 
-Coming up with a way to score the complexity of the user_password was a major challenge. For example, coming up with a password made entirely of symbols and numbers would probably be much harder for a human to guess than a password made up of 2 capital letters, 2 lowercase letters, 2 symbols, and 2 numbers. Yet, the latter will get a higher score in this program. There's a logic to password complexity than simply: does it meet certain requirements? A more advanced version of this program might be able to recognize words from an actual dictionary. The less resemblance the password has to dictionary words, the less likely it will be guessed by a human, probably. There's a lot more that could be taken into consideration regarding complexity than is used here.
+Coming up with a way to score the complexity of the user_password was tricky. For example, coming up with a password made entirely of symbols and numbers would probably be much harder for a human to guess than a password made up of 2 capital letters, 2 lowercase letters, 2 symbols, and 2 numbers. Yet, the latter will get a higher score in this program. There's a logic to password complexity that goes beyond simply meeting certain requirements. A more advanced version of this program might be able to recognize words from an actual dictionary. The less resemblance the password has to dictionary words, the less likely it will be guessed by a human, probably. There's a lot more that could be taken into consideration regarding complexity than is used here.
 
 
 ## Example Runs
@@ -201,9 +200,7 @@ I wrote unit tests for most of the functions in the password_checker program: [t
 
 I also have output files from the encrypter program: [test_encrypted_file](https://github.com/wbeeker/password_checker/blob/main/test_encrypted_file.txt) / [test_key](https://github.com/wbeeker/password_checker/blob/main/test_key.txt)
 
-
 Because the program relies heavily on user input, I simply had to use the program myself, trying lots of different inputs, doing my best to break the program.
-
 
 
 ## Missing Features / What's Next
@@ -217,4 +214,4 @@ As I mentioned above, I would've liked to explore more sophisticated ways to cal
 
 ## Final Reflection
 
-This has been a challenging, rewarding semester. My programming skills have developed quickly and I've learned more in such a short span of time than I thought was possible. I want to use the time between this semester and next to go back and gain a deeper understanding of some of the concepts of the course. I often was so focused on just getting things done that my only concern was: do I understand this concept or technique enough to use it in practice? Often, the answer to that question was yes, even if I didn't fully understand what was happening under the hood, or the 'why' and 'how' behind certain techniques. I also think I was a little too focused on grades, scoring, deadlines, etc. In the second half of the semester, I tried to simply focus on the learning and understanding parts, and let the grades/assignments  take care of themselves. This was a much better approach and I'll try to take that knowledge with me going forward.  
+This has been a challenging, rewarding semester. My programming skills have developed quickly and I've learned more in such a short span of time than I thought was possible. I want to use the time between this semester and next to go back and gain a deeper understanding of some of the concepts of the course. I often was so focused on just getting things done that my only concern was: do I understand this concept or technique enough to use it in practice? Often, the answer to that question was yes, even if I didn't fully understand what was happening under the hood, or the 'why' and 'how' behind certain techniques. I also think I was a little too focused on grades, scoring, deadlines, etc. In the second half of the semester, I tried to simply focus on the learning and understanding parts, and let the grades/assignments take care of themselves. This was a much better approach and I'll try to take that knowledge with me going forward.  
