@@ -199,7 +199,7 @@ And here are the encrypted_file.txt and key.txt outputted by the run:
 
 I wrote unit tests for most of the functions in the password_checker program: [tests](https://github.com/wbeeker/password_checker/blob/main/test_password_checker.py)
 
-I also have output files from the encrypter program: [test_encrypted_file](https://github.com/wbeeker/password_checker/blob/main/test_encrypted_file.txt) [test_key](https://github.com/wbeeker/password_checker/blob/main/test_key.txt)
+I also have output files from the encrypter program: [test_encrypted_file](https://github.com/wbeeker/password_checker/blob/main/test_encrypted_file.txt) / [test_key](https://github.com/wbeeker/password_checker/blob/main/test_key.txt)
 
 
 Because the program relies heavily on user input, I simply had to use the program myself, trying lots of different inputs, doing my best to break the program.
