@@ -197,9 +197,10 @@ And here are the encrypted_file.txt and key.txt outputted by the run:
 
 ## Testing
 
-I wrote unit tests for most of the functions in the password_checker program: [link](https://github.com/wbeeker/password_checker/blob/main/test_password_checker.py)
+I wrote unit tests for most of the functions in the password_checker program: [tests_file](https://github.com/wbeeker/password_checker/blob/main/test_password_checker.py)
 
 I also have output files from the encrypter program:
+
 
 
 Because the program relies heavily on user input, I simply had to use the program myself, trying lots of different inputs, doing my best to break the program.
