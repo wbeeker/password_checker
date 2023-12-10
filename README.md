@@ -9,7 +9,7 @@
 
 ## Description
 
-I have trouble keeping track of all my passwords, but to keep a list of them together seems risky — if someone were to find that list, they'd have access to all of my passwords. Encrypting the list allows me to keep them all in one place, but also keeps them protected until I need to access them.
+I have trouble keeping track of all my passwords, but to keep a list of them together seems risky — if someone were to find that list, they'd have access to everything. Encrypting a list of passwords allows me to keep them all in one place, but also keeps them protected until I need to access them.
 
 This program takes in passwords from the user and the name of the application or service the password is used for. The program stores a list of passwords and service names, and can encrypt the list into a text file. The text file, and its key, can then be decrypted by the program.
 
@@ -56,7 +56,7 @@ To end the program, simply type 'quit':
 
 ## Installation Instructions
 
-To install, download password_checker.py, ecnrypter.py, and the common_pw_list.txt file. Open password_checker.py with your favorite IDE and hit run. Make sure to have all three files in the same directory.
+To install, download password_checker.py, ecnrypter.py, and the common_pw_list.txt file. Open password_checker.py with your favorite IDE and hit run. Make sure to have all three files stored in the same directory.
 
 
 ## Code Review
@@ -207,11 +207,11 @@ Because the program relies heavily on user input, I simply had to use the progra
 
 I would've liked to have used a GUI. I have no experience with with GUI, but it would've made the program easier and nicer to use.
 
-I also would've liked to utilize command line arguments. Using the command line is something I've struggled with this semester and it was something I failed to incorporate into this program.
+As mentioned above, I would've liked to explore more sophisticated ways to calculate the complexity of a password. There's a lot to be considered here including packages like PasswordPolicy from password_strength which calculate complexity automatically. 
 
-As I mentioned above, I would've liked to explore more sophisticated ways to calculate the complexity of a password.
+I'd also like to explore more complex forms of file encryption. Using an algorithm instead of a randomly generated key to replace letters could've been interesting, and could be a fun addition to the project as I gain knowledge of algorithms in future courses.
 
 
 ## Final Reflection
 
-This has been a challenging, rewarding semester. My programming skills have developed quickly and I've learned more in such a short span of time than I thought was possible. I want to use the time between this semester and next to go back and gain a deeper understanding of some of the concepts of the course. I often was so focused on just getting things done that my only concern was: do I understand this concept or technique enough to use it in practice? Often, the answer to that question was yes, even if I didn't fully understand what was happening under the hood, or the 'why' and 'how' behind certain techniques. I also think I was a little too focused on grades, scoring, deadlines, etc. In the second half of the semester, I tried to simply focus on the learning and understanding parts, and let the grades/assignments take care of themselves. This was a much better approach and I'll try to take that knowledge with me going forward.  
+This has been a challenging, rewarding semester. My programming skills have developed quickly and I've learned more in such a short span of time than I thought was possible. I want to use the time between this semester and next to go back and gain a deeper understanding of some of the concepts of the course. I often was so focused on just getting things done that my only concern was: do I understand this concept or technique enough to use it in practice? Often, the answer to that question was yes, even if I didn't fully understand what was happening under the hood, or the 'why' and 'how' behind certain techniques. I also struggled to understand the last few topics of the courses, from 'Classes' on, basically. As mentioned, this foreshadows object-oriented programming, so I know it's important that I start to grasp the basic tenets of this form of programming. I had a little working knowledge of Python going into this course, which helped me through the first half of this course, but once we got to Classes I was in completely uncharted territory. It was exciting but very challenging. It's an area I'll need to explore more between now and the next semester. There are also topics like Recursion, which I could use a lot more practice on. Overall, it was a rewarding experience and I look forward to continuing my CS journey.
