@@ -9,7 +9,7 @@
 
 ## Description
 
-I have trouble keeping track of all my passwords, but to keep a list of them together seems risky — if someone were to find that list, they'd have access to everything. Encrypting a list of passwords allows me to keep them all in one place, but also keeps them protected until I need to access them.
+I have trouble keeping track of all my passwords, but to keep a list of them together is risky. Encrypting a list of passwords allows me to keep them all in one place while also keeping them protected.
 
 This program takes in passwords from the user and the name of the application or service the password is used for. The program stores a list of passwords and service names, and can encrypt the list into a text file. The text file, and its key, can then be decrypted by the program.
 
